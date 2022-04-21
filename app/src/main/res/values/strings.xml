@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="showSavedData">Kaydedilen hava durumlarını göster</string>
+    <string name="showData">Hava durumlarını göster</string>
+    <string name="cityNameHint">Şehir ismi gir</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding = "20dp"
+
+    tools:context=".Activities.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/city_input_edit_Text"
+        android:hint="@string/cityNameHint"
+        >
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showSavedDataBtn"
+        android:layout_marginTop="10dp"
+        android:text="@string/showSavedData"
+
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showDataBtn"
+        android:layout_marginTop="10dp"
+        android:text="@string/showData"
+        >
+
+
+    </Button>
+
+
+</LinearLayout>
